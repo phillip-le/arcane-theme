@@ -10,7 +10,11 @@
   },
   "semanticHighlighting": true,
   "semanticTokenColors": {
-    "property": "#9bd0ff"
+    "parameter": "#a7c0ff",
+    "property": "#9bd0ff",
+    "method": "#73ffd3",
+    "namespace": "#ffe389",
+    "function": "#2dff93"
   },
   "tokenColors": [
     {
@@ -46,7 +50,15 @@
       "name": "Keyword, Storage",
       "scope": ["keyword", "storage.type", "storage.modifier"],
       "settings": {
-        "foreground": "#C792EA"
+        "foreground": "#7c77d8",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Flow Control",
+      "scope": ["keyword.control.conditional", "keyword.control.flow"],
+      "settings": {
+        "foreground": "#c377d8"
       }
     },
     {
@@ -97,7 +109,7 @@
       "name": "Block Level Variables",
       "scope": ["meta.block variable.other"],
       "settings": {
-        "foreground": "#f1bc68"
+        "foreground": "#ffffff"
       }
     },
     {
@@ -120,7 +132,7 @@
         "keyword.other"
       ],
       "settings": {
-        "foreground": "#F78C6C"
+        "foreground": "#ffeeb5"
       }
     },
     {
@@ -143,6 +155,18 @@
       "scope": ["entity.name.tag.yaml"],
       "settings": {
         "foreground": "#9bd0ff"
+      }
+    },
+    {
+      "name": "Primitive types",
+      "scope": [
+        "support.type.primitive",
+        "support.type.builtin",
+        "entity.name.type"
+      ],
+      "settings": {
+        "foreground": "#2dfbff",
+        "fontStyle": "italic"
       }
     },
     {
