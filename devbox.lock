@@ -1,0 +1,53 @@
+{
+  "lockfile_version": "1",
+  "packages": {
+    "vsce@latest": {
+      "last_modified": "2024-08-10T11:55:14Z",
+      "resolved": "github:NixOS/nixpkgs/8987be1fef03440514ebf3b0b60e0c44fc13eb6c#vsce",
+      "source": "devbox-search",
+      "version": "2.31.1",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/qff1dkgl29j043awa1n9qbx09j4c13kp-vsce-2.31.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/qff1dkgl29j043awa1n9qbx09j4c13kp-vsce-2.31.1"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/h6fa73p3aajm95pf63z6qpamcsy1h5xy-vsce-2.31.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/h6fa73p3aajm95pf63z6qpamcsy1h5xy-vsce-2.31.1"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/ariyj2mbxs35pgh7jygpvcv338ya654p-vsce-2.31.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/ariyj2mbxs35pgh7jygpvcv338ya654p-vsce-2.31.1"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/bc6qyvc2qny66q7c9ivgz3qx3aiywchs-vsce-2.31.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/bc6qyvc2qny66q7c9ivgz3qx3aiywchs-vsce-2.31.1"
+        }
+      }
+    }
+  }
+}

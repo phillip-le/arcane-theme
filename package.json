@@ -3,6 +3,7 @@
     "displayName": "arcane-theme",
     "description": "Personal theme.",
     "version": "0.0.1",
+    "publisher": "Phillip",
     "engines": {
         "vscode": "^1.65.0"
     },
